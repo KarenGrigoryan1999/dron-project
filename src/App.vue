@@ -1,15 +1,15 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Welcome to Your Vue.js App" />
+  <h1>Это заголовок страницы</h1>
+  <MyComponent title="Это строка, переданная через props" />
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
+import MyComponent from "./components/MyComponent.vue";
 
 export default {
   name: "App",
   components: {
-    HelloWorld,
+    MyComponent,
   },
 };
 </script>
